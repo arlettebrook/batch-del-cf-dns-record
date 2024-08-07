@@ -79,22 +79,20 @@ pflag: help requested
 
 ### 二进制文件运行[推荐]
 
-**注意**：只提供了Windows的二进制文件，其他系统自行编译。
+**注意**：只提供了Windows版本的二进制文件，其他系统自行编译。
 
-1. 前往[发布页面](https://github.com/arlettebrook/batch-del-cf-dns-record/releases/latest)下载，最新Windows版本
-
-2. 解压
+1. 前往[发布页面](https://github.com/arlettebrook/batch-del-cf-dns-record/releases/latest)下载，最新Windows版本。
 
 3. 在**Windows终端**中运行`batch-del-cf-dns-record.exe`并指定参数即可:
 
    ```sh
-   batch-del-cf-dns-record.exe --a api_token -z zone_id
+   batch-del-cf-dns-record.exe -a api_token -z zone_id
    ```
 
 4. 如果是bash之类的终端，运行：
 
-   ```
-   ./batch-del-cf-dns-record.exe --a api_token -z zone_id
+   ```sh
+   ./batch-del-cf-dns-record.exe -a api_token -z zone_id
    ```
 
    
